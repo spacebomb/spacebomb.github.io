@@ -1,8 +1,8 @@
 /*!
- * ZUI: Document - v1.7.0 - 2017-06-19
- * http://zui.sexy
- * GitHub: https://github.com/easysoft/zui.git 
- * Copyright (c) 2017 cnezsoft.com; Licensed MIT
+ * 星空之门: Document - v1.0.0 - 2017-08-06
+ * http://spacebomb.net
+ * GitHub: https://github.com/spacebomb/spacebomb.github.io.git 
+ * Copyright (c) 2017 417430414@qq.com; Licensed MIT
  */
 
 /* ========================================================================

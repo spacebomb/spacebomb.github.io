@@ -1,8 +1,8 @@
 /*!
- * ZUI: Standard edition - v1.7.0 - 2017-06-17
- * http://zui.sexy
- * GitHub: https://github.com/easysoft/zui.git 
- * Copyright (c) 2017 cnezsoft.com; Licensed MIT
+ * 星空之门: Standard edition - v1.0.0 - 2017-08-06
+ * http://spacebomb.net
+ * GitHub: https://github.com/spacebomb/spacebomb.github.io.git 
+ * Copyright (c) 2017 417430414@qq.com; Licensed MIT
  */
 
 /*! Some code copy from Bootstrap v3.0.0 by @fat and @mdo. (Copyright 2013 Twitter, Inc. Licensed under http://www.apache.org/licenses/)*/
@@ -2828,7 +2828,7 @@
             $content = $dialog.find('.modal-content');
 
         $modal.toggleClass('fade', options.fade)
-            .addClass(options.cssClass)
+            .addClass(options.className)
             .toggleClass('modal-loading', !this.isShown);
 
         $dialog.toggleClass('modal-md', options.size === 'md')
@@ -4483,7 +4483,7 @@
         });
 
         var $content = that.$.find('.messager-content').html(that.message);
-        if(options.contentClass) $content.addClass(options.cssClass);
+        if(options.contentClass) $content.addClass(options.contentClass);
 
         that.$.data('zui.messager', that);
 

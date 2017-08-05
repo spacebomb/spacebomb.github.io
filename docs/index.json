@@ -1,11 +1,12 @@
 {
-    "version": "1.7.0.3",
-    "updateTime": "2017-06-23 09:07",
+    "version": "1.0.0",
+    "updateTime": "2017-08-06 01:23",
     "chapters": {
         "contribution": {
             "name": "贡献",
             "accent": "red",
-            "sections": [{
+            "sections": [
+              {
                 "id": "countme",
                 "name": "我要贡献自己的力量",
                 "desc": "对美好的追求永不停歇，你也来吧！",
@@ -209,7 +210,7 @@
             "accent": "blue",
             "sections": [{
                 "id": "newly",
-                "name": "更新日志",
+                "name": "更新日志ddd",
                 "desc": "快看看新鲜内容",
                 "icon": "icon-flag",
                 "url": "CHANGES.md",
