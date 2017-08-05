@@ -11,7 +11,7 @@
   <style id="themeStyle"></style>
 
   <link rel="shortcut icon" href="docs/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="docs/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="docs/favicon-bak.ico" type="image/x-icon">
 
   <!--[if lt IE 9]>
     <script src="dist/lib/ieonly/html5shiv.js"></script>
@@ -24,37 +24,25 @@
   <div class="navbar navbar-inverse navbar-fixed-top" id="navbar" role="banner">
     <div class="container">
       <div class="navbar-header">
-        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".zui-navbar-collapse">
-          <span class="sr-only">切换导航</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a href="/" class="navbar-brand"><span class="path-zui-36"><i class="path-1"></i><i class="path-2"></i></span> <span class="brand-title">ZUI</span> &nbsp;<small class="format-pkg zui-version" data-fmt-text="{version}"></small> <i data-toggle="tooltip" id="compactTogger" data-placement="bottom" class="icon icon-home"></i></a>
+        <a href="javascript:;" class="navbar-brand">
+          <span><img src="docs/img/zui-48.png" style="height: 36px;width:36px;margin-top: -10px;"></span>
+          <span class="brand-title format-pkg" data-fmt-text="{name}"></span> &nbsp;
+          <i data-toggle="tooltip" id="compactTogger" data-placement="bottom" class="icon icon-home"></i>
+        </a>
       </div>
-      <nav class="collapse navbar-collapse zui-navbar-collapse">
-        <ul class="nav navbar-nav navbar-right">
-          <li id="navDownloadLink">
-            <a title="立即下载" class="format-pkg" data-fmt-href="docs/download/zui-{version}-dist.zip" target="_blank">
-              <i class="icon icon-download-alt"></i><span> 立即下载1</span></a>
-          </li>
-          <li><a title="论坛" href="http://forum.zui.sexy/forum/" target="_blank"><i class="icon icon-comments-alt"></i><span> 论坛</span></a></li>
-          <li><a title="在Github上Star项目" href="https://github.com/easysoft/zui" target="_blank"><i class="icon icon-github"></i><span> Star</span></a></li>
-        </ul>
-      </nav>
     </div>
   </div>
   <div id="headContainer">
     <div class="container">
       <div id="heading">
-        <h1>ZUI</h1>
-        <p>一个基于 Bootstrap 深度定制开源前端实践方案，帮助你快速构建现代跨屏应用。</p>
-        <div id="download">
-          <a data-fmt-href="docs/download/zui-{version}-dist.zip" class="btn btn-primary btn-lg format-pkg">立即下载 <i class="icon icon-download-alt"></i></a>
-          <a href="#basic/download" class="btn btn-white btn-lg">快速上手 <i class="icon icon-hand-right"></i></a>
-          <p><small>最新版本 <span class="format-pkg" data-fmt-text="{version}"><i class='icon icon-spin icon-spinner-indicator'></i></span> &nbsp; <a style="color: #f1f1f1" href="https://github.com/easysoft/zui/archive/master.zip" target="_blank">下载源码</a></small></p>
-        </div>
-        <p><span data-toggle="tooltip" data-html="true" title="加群请注明加群缘由，<br>或者使用暗号：ZUI is sexy">QQ群：384135104</span> &nbsp; <a href="http://forum.zui.sexy/forum/" style="color: #f1f1f1" target="_blank"><i class="icon icon-comments-alt"></i> 论坛</a></p>
+        <h1 class="format-pkg"data-fmt-text="{name}">SpaceBomb</h1>
+        <p>技术宅的私人领地、种类繁多的资源文档</p>
+        <!--<div id="download">-->
+          <!--<a data-fmt-href="docs/download/zui-{version}-dist.zip" class="btn btn-primary btn-lg format-pkg">立即下载 <i class="icon icon-download-alt"></i></a>-->
+          <!--<a href="#basic/download" class="btn btn-white btn-lg">快速上手 <i class="icon icon-hand-right"></i></a>-->
+          <!--<p><small>最新版本 <span class="format-pkg" data-fmt-text="{version}"><i class='icon icon-spin icon-spinner-indicator'></i></span> &nbsp; <a style="color: #f1f1f1" href="https://github.com/easysoft/zui/archive/master.zip" target="_blank">下载源码</a></small></p>-->
+        <!--</div>-->
+        <!--<p><span data-toggle="tooltip" data-html="true" title="加群请注明加群缘由，<br>或者使用暗号：ZUI is sexy">QQ群：384135104</span> &nbsp; <a href="http://forum.zui.sexy/forum/" style="color: #f1f1f1" target="_blank"><i class="icon icon-comments-alt"></i> 论坛</a></p>-->
       </div>
       <div id="search">
         <div id="searchForm">
@@ -63,10 +51,6 @@
           <button id="searchHelpBtn" type="button" class="btn btn-link"><i class="icon icon-question"></i></button>
         </div>
       </div>
-    </div>
-    <div class="text-center" id="ad">
-      <a id="mzui" class="hidden" href="http://zui.sexy/m/" target="_blank"><i class="icon icon-diamond"></i> &nbsp; MZUI &nbsp; // <span class="hidden-xs inline">为移动端设计，</span>基于 Flex 的 UI 框架</a>
-      <a id="xuanxuan" href="http://xuan.im" target="_blank"><i class="icon icon-xuanxuan"></i>喧喧 &nbsp; // <span class="hidden-xs inline">免费、开源、安全、跨平台的</span>聊天方案</a>
     </div>
   </div>
 </header>
@@ -294,16 +278,5 @@
 <!-- 增强文档插件 -->
 <script async src="dist/lib/prettify/prettify.js"></script>
 
-<!-- Statistic -->
-<div class="hide"><script src="//s95.cnzz.com/stat.php?id=1253026255&web_id=1253026255"></script></div>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-53781622-1', 'auto');
-  ga('send', 'pageview');
-</script>
 </body>
 </html>

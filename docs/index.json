@@ -280,7 +280,8 @@
         "basic": {
             "name": "基础",
             "accent": "primary",
-            "sections": [{
+            "sections": [
+              {
                 "id": "intro",
                 "name": "说明",
                 "icon": "icon-heart",
