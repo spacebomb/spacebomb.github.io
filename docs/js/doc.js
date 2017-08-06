@@ -12779,6 +12779,7 @@ require('./polyfill-done.js');
     }
 
     var chapters = {
+        springboot  : {col: 1},
         basic       : {col: 1},
         control     : {col: 2},
         component   : {col: 2},
@@ -14415,7 +14416,7 @@ require('./polyfill-done.js');
                     lib.dpds.forEach(function(dpdsName) {
                         if(dpdsName.startsWith(libName) && pkg.lib[dpdsName] && !pkg.lib[dpdsName].thirdpart) {
                             getLibSource(pkg.lib[dpdsName], src, libName);
-                        } 
+                        }
                     });
                 }
             };
@@ -14483,7 +14484,7 @@ require('./polyfill-done.js');
                 section.lib = lib;
                 section.isNew = section.version === pkg.version;
                 section.isUpdate = section.update === pkg.version;
-                
+
                 if(isNewRelease) {
                     $('#section-' + section.chapter + '-' + section.id).toggleClass('section-update', section.isUpdate).toggleClass('section-new', section.isNew);
                 }
@@ -14633,7 +14634,7 @@ require('./polyfill-done.js');
                 "src/less/doc.less"];
         }
         var lessCode = $.isArray(theme.imports) ? theme.imports.map(function(i) {
-            return '@import "' + i + '";'; 
+            return '@import "' + i + '";';
         }).join('\n') : theme.imports;
         lessCode += theme.variablesLess + (theme.lessCode || '');
         window.less.render(lessCode, $.extend({
@@ -14667,7 +14668,7 @@ require('./polyfill-done.js');
             return;
         }
         if(typeof theme === 'string') theme = docThemes[theme];
-        
+
         if($body.hasClass('theme-changing')) return false;
         $body.addClass('theme-changing');
 
