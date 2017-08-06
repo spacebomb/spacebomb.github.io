@@ -351,6 +351,7 @@
           "name": "说明",
           "icon": "icon-heart",
           "desc": "基于Java Spring的微服务应用开发框架",
+          "version": "1.0.0",
           "topics": [
             {
               "name": "Spring或Spring Boot"

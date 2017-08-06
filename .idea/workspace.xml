@@ -2,22 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd2f718d-cfe2-41f9-8e3a-85270f882934" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/part/springboot-bootdesc.md" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/download/zui-1.2.0-dist.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/download/zui-1.3.0-dist.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/download/zui-1.3.1-dist.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/download/zui-1.4.0-dist.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/download/zui-1.5.0-dist.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/download/zui-1.6.0-dist.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/download/zui-1.7.0-dist.zip" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/icons.min.json" afterPath="$PROJECT_DIR$/docs/icons.min.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/index.json" afterPath="$PROJECT_DIR$/docs/index.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/index.min.json" afterPath="$PROJECT_DIR$/docs/index.min.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/js/doc.js" afterPath="$PROJECT_DIR$/docs/js/doc.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/js/doc.min.js" afterPath="$PROJECT_DIR$/docs/js/doc.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/doc.js" afterPath="$PROJECT_DIR$/src/js/doc.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="209" column="46" lean-forward="false" selection-start-line="209" selection-start-column="46" selection-end-line="209" selection-end-column="46" />
+            <state relative-caret-position="168">
+              <caret line="212" column="33" lean-forward="false" selection-start-line="212" selection-start-column="33" selection-end-line="212" selection-end-column="33" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#span#0;n#a#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -48,11 +36,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="doc.min.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="doc.min.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/docs/js/doc.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="37" column="11046" lean-forward="false" selection-start-line="37" selection-start-column="11036" selection-end-line="37" selection-end-column="11046" />
+            <state relative-caret-position="194">
+              <caret line="38" column="12088" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="13965" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="doc.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/doc.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-33320">
+              <caret line="70" column="31" lean-forward="true" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -62,7 +62,7 @@
         <entry file="file://$PROJECT_DIR$/docs/index.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="212">
-              <caret line="360" column="12" lean-forward="true" selection-start-line="360" selection-start-column="12" selection-end-line="360" selection-end-column="12" />
+              <caret line="353" column="27" lean-forward="false" selection-start-line="353" selection-start-column="27" selection-end-line="353" selection-end-column="27" />
               <folding>
                 <element signature="n#!!block;n#contribution#0;n#!!block;n#chapters#0;n#!!top" expanded="false" />
                 <element signature="n#!!block;n#resource#0;n#!!block;n#chapters#0;n#!!top" expanded="false" />
@@ -83,7 +83,6 @@
     <findStrings>
       <find>切换导航</find>
       <find>1.7</find>
-      <find>version</find>
       <find>logo</find>
       <find>path-zui-36</find>
       <find>交流探索</find>
@@ -105,6 +104,7 @@
       <find>primary</find>
       <find>basic</find>
       <find>springboot</find>
+      <find>version</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/docs</dir>
@@ -120,14 +120,14 @@
         <option value="$PROJECT_DIR$/LICENSE" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/docs/js/doc.min.js" />
         <option value="$PROJECT_DIR$/docs/partial/navbar.html" />
         <option value="$PROJECT_DIR$/docs/js/doc.js" />
         <option value="$PROJECT_DIR$/src/js/doc.js" />
         <option value="$PROJECT_DIR$/docs/index.min.json" />
         <option value="$PROJECT_DIR$/docs/part/springboot-bootdesc.md" />
-        <option value="$PROJECT_DIR$/docs/index.json" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/docs/index.json" />
+        <option value="$PROJECT_DIR$/docs/js/doc.min.js" />
       </list>
     </option>
   </component>
@@ -191,6 +191,30 @@
               <item name="zui-master" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="zui-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zui-master" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zui-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zui-master" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="doc.js" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="zui-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zui-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zui-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zui-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -247,12 +271,12 @@
       <workItem from="1501922082660" duration="745000" />
       <workItem from="1501923017289" duration="12290000" />
       <workItem from="1501984042131" duration="6416000" />
-      <workItem from="1501991810824" duration="2597000" />
+      <workItem from="1501991810824" duration="3198000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22048000" />
+    <option name="totallyTimeSpent" value="22649000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="23" width="1260" height="701" extended-state="0" />
@@ -621,14 +645,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/js/doc.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="37" column="11046" lean-forward="false" selection-start-line="37" selection-start-column="11036" selection-end-line="37" selection-end-column="11046" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/part/springboot-bootdesc.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -650,10 +666,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="212" column="33" lean-forward="false" selection-start-line="212" selection-start-column="33" selection-end-line="212" selection-end-column="33" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#span#0;n#a#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1501994478000" expanded="false" signature="2009:2023" ph="..." />
+            <marker date="1501994478000" expanded="false" signature="2320:2334" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/doc.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="72" column="29" lean-forward="false" selection-start-line="72" selection-start-column="29" selection-end-line="72" selection-end-column="29" />
+        <state relative-caret-position="-33320">
+          <caret line="70" column="31" lean-forward="true" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -661,7 +691,7 @@
     <entry file="file://$PROJECT_DIR$/docs/index.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
-          <caret line="360" column="12" lean-forward="true" selection-start-line="360" selection-start-column="12" selection-end-line="360" selection-end-column="12" />
+          <caret line="353" column="27" lean-forward="false" selection-start-line="353" selection-start-column="27" selection-end-line="353" selection-end-column="27" />
           <folding>
             <element signature="n#!!block;n#contribution#0;n#!!block;n#chapters#0;n#!!top" expanded="false" />
             <element signature="n#!!block;n#resource#0;n#!!block;n#chapters#0;n#!!top" expanded="false" />
@@ -675,16 +705,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/docs/js/doc.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="209" column="46" lean-forward="false" selection-start-line="209" selection-start-column="46" selection-end-line="209" selection-end-column="46" />
+        <state relative-caret-position="194">
+          <caret line="38" column="12088" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="13965" />
           <folding>
-            <element signature="n#style#0;n#img#0;n#span#0;n#a#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1501994478000" expanded="false" signature="2009:2023" ph="..." />
-            <marker date="1501994478000" expanded="false" signature="2320:2334" ph="..." />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
